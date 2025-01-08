@@ -5,6 +5,35 @@
     text-decoration: none;
 }
 body{
-    background-color: #519d51;
+    background-color: #ffffff;
     font-family:  "Roboto Condensed", serif;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgba(245, 245, 220, 0);
+    padding: 10px;
+}
+.logo a{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    margin: 5px;
+}
+li a{
+    color: black;
+    font-weight: bolder;
+}
+li a:hover{
+    color: rgba(218, 110, 33, 0.726);
 }
