@@ -213,7 +213,7 @@ span{
 @keyframes words{ 
     0%,
     20%{
-      content: "rFrontend Develope";
+      content: "Frontend Develope";
     }
     21%,
     40%{
@@ -254,7 +254,7 @@ span{
      65%,
      80%,
      85%{
-
+        width: calc(100% + 8px);
      }
 }
 
