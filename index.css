@@ -455,14 +455,13 @@ span{
     color: gold;
     font-size: 2rem;
 }
-.projects {
+.projects{
     text-align: center;
     padding: 20px;
     background-color: var(--bg-color);
 }
-
 .projects h2 {
-    margin-bottom: 20px;
+    margin-bottom: 5rem;
     font-size: 8rem;
 }
 
