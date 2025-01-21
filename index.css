@@ -458,11 +458,12 @@ span{
 .projects {
     text-align: center;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: var(--bg-color);
 }
 
 .projects h2 {
     margin-bottom: 20px;
+    font-size: 8rem;
 }
 
 .projects-container {
@@ -474,7 +475,7 @@ span{
 
 .project-card {
     flex: 0 0 auto;
-    width: 200px;
+    width: 250px;
     margin-right: 15px;
     padding: 20px;
     background-color: #fff;
@@ -489,17 +490,46 @@ span{
     transform: translateY(-5px);
 }
 
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    margin: 10px 0;
+}
+
+.project-card p {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.project-card a:hover {
+    background-color: var(--main-color);
+}
+
 .projects-container::-webkit-scrollbar {
     height: 8px;
 }
 
 .projects-container::-webkit-scrollbar-thumb {
-    background-color: #ccc;
+    background-color: var(--main-color);
     border-radius: 4px;
 }
 
 .projects-container::-webkit-scrollbar-track {
     background-color: #f4f4f4;
 }
-
-
