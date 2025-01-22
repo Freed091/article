@@ -536,27 +536,26 @@ span{
 .projects-container::-webkit-scrollbar-track {
     background-color: #f4f4f4;
 }
-.contact {
-    padding: 50px 20px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    max-width: 600px;
-    margin: 50px auto;
+.contact{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
   
-  .contact h2 {
+.contact h2 {
     text-align: center;
-    color: #333;
+    color: var(--text-color);
+    font-size: 8rem;
+    padding top: 50px;
   }
-  
-  .contact label {
+ .contact label {
     display: block;
     margin-bottom: 8px;
-    color: #555;
+    color: var(--text-color);
     font-weight: bold;
+    font-size: 3rem;
   }
-  
   .contact textarea {
     width: 100%;
     padding: 10px;
@@ -565,19 +564,20 @@ span{
     border-radius: 4px;
     font-size: 16px;
     resize: vertical;
+    flex-grow: 2; /* Ensures the text area takes more space */
   }
-  
   .contact button {
     width: 100%;
     padding: 10px;
-    background-color: #28a745;
+    background-color: #0ac536;
     color: white;
     border: none;
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 15px;
+    flex-grow: 0; /* Ensures the button stays compact */
   }
-  
-  .contact button:hover {
-    background-color: #218838;
+   .contact button:hover {
+    background-color: #888121;
   }
