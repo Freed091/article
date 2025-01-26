@@ -464,7 +464,7 @@ span{
     justify-content: center;
     flex-direction: column;
 }
-.projects h2 {
+.heading{
     margin-bottom: 10rem;
     font-size: 8rem;
 }
@@ -542,12 +542,11 @@ span{
     justify-content: center;
     flex-direction: column;
   }
-  
-.contact h2 {
+.heading {
     text-align: center;
     color: var(--text-color);
     font-size: 8rem;
-    padding top: 50px;
+    margin-bottom: 10rem;
   }
  .contact label {
     display: block;
@@ -557,14 +556,15 @@ span{
     font-size: 3rem;
   }
   .contact textarea {
+    background-color: #000000;
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--main-color);
     border-radius: 4px;
     font-size: 16px;
     resize: vertical;
-    flex-grow: 2; /* Ensures the text area takes more space */
+    flex-grow: 2; 
   }
   .contact button {
     width: 100%;
@@ -581,3 +581,14 @@ span{
    .contact button:hover {
     background-color: #888121;
   }
+  .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--second-bg-color);
+  }
+  .footer .social{
+    text-align: center;
+  }
+  
