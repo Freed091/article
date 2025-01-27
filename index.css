@@ -638,9 +638,9 @@ span{
     font-size: 16px;
     color: white;
   }
-  @media(max-width:1900px){
+  @media(max-width:1600px){
     html{
-        font-size: 45%;
+        font-size: 50%;
     }
     .services-container{
         padding-bottom: 7rem;
@@ -648,7 +648,7 @@ span{
         margin: 0 5rem;
     }
   }
-  @media(max-width:950px){
+  @media(max-width:800px){
     .header{
         padding: 2rem 3%;
     }
@@ -689,7 +689,7 @@ span{
        padding: 2rem 3%;
     }
   }
-  @media(max-width:850px){
+  @media(max-width:650px){
     #menu-icon{
         display: block;
     }
