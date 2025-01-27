@@ -648,7 +648,7 @@ span{
         margin: 0 5rem;
     }
   }
-  @media(max-width:850px){
+  @media(max-width:900px){
     .header{
         padding: 2rem 3%;
     }
@@ -689,7 +689,7 @@ span{
        padding: 2rem 3%;
     }
   }
-  @media(max-width:750px){
+  @media(max-width:800px){
     #menu-icon{
         display: block;
     }
