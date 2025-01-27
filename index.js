@@ -9,4 +9,11 @@ document.getElementById('sendMessageBtn').addEventListener('click', function() {
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
     window.open(whatsappUrl, '_blank');
   });
-  
+ 
+const menuIcon = document.querySelector("#menu-icon");
+const navbar = document.querySelector(".navbar");
+
+
+menuIcon.addEventListener("click", () => {
+  navbar.classList.toggle("active");
+});
