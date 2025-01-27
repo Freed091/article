@@ -640,7 +640,7 @@ span{
   }
   @media(max-width:1285px){
     html{
-        font-size: 55%;
+        font-size: 45%;
     }
     .services-container{
         padding-bottom: 7rem;
