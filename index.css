@@ -456,12 +456,12 @@ span{
     font-size: 2rem;
 }
 .projects{
-    padding: 10px;
+    padding-inline: 1px;
     background-color: var(--bg-color);
-    /* background-size: cover; */
+    background-size: cover;
     display: inline; 
-    /* justify-content: center; */
-    /* flex-direction: column; */
+    justify-content: center;
+    flex-direction: column;
 }
 .heading{
     margin-bottom: 10rem;
@@ -557,7 +557,7 @@ span{
   }
   .contact textarea {
     background-color: #fff0f0;
-    width: 100%;
+    width: 50%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid var(--main-color);
