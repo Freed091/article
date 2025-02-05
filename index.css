@@ -108,11 +108,11 @@ span{
 }
 .home-img img{
     width: 300px;
-    height: 400px;
+    height: 450px;
     position: relative;
     top: 3rem;
-    width: 32vw;
-    border-radius: 5%;
+    width: 35vw;
+    border-radius: 5px 50px;
     box-shadow: 0 0 15px var(--main-color);
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -123,7 +123,7 @@ span{
                0 0 50px var(--main-color);
 }
 .home-content p{
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     font-weight: 500;
     line-height: 1.8;
     max-width: 1000px;
@@ -456,17 +456,17 @@ span{
     font-size: 2rem;
 }
 .projects{
-    text-align: center;
-    padding: 20px;
+    padding: 10px;
     background-color: var(--bg-color);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    /* background-size: cover; */
+    display: inline; 
+    /* justify-content: center; */
+    /* flex-direction: column; */
 }
 .heading{
     margin-bottom: 10rem;
-    font-size: 8rem;
+    font-size: 8rem; 
+    text-align: center;
 }
 
 .projects-container {
@@ -538,7 +538,7 @@ span{
 }
 .contact{
     background-size: cover;
-    display: flex;
+    display: inline;
     justify-content: center;
     flex-direction: column;
   }
@@ -640,7 +640,7 @@ span{
   }
   @media(max-width:1900px){
     html{
-        font-size: 55%;
+        /* font-size: ; */
         padding-left: 5px;
     }
     .services-container{
